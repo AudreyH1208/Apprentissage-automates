@@ -1,0 +1,9 @@
+(library
+ (name my_modules)
+ (modules expr my_base teacher tries obs learner)
+)
+
+(executables
+ (names main)
+ (modules main)
+ (libraries my_modules))
